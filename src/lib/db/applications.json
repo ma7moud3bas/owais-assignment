@@ -1,0 +1,84 @@
+{
+    "applications": [
+        {
+            "id": "1",
+            "name": "mahmoud",
+            "AccountName": "mahmoud inc",
+            "AccountNumber": "123 123",
+            "address": "Burg khalifa",
+            "additionalData": {
+                "certificateRecipient": {
+                    "type": "client"
+                },
+                "profitsRecipient": {
+                    "type": "client"
+                },
+                "salesRecipient": {
+                    "type": "client"
+                }
+            },
+            "status": "submitted",
+            "updated_at": "2019-11-20T12:00:00.000Z"
+        },
+        {
+            "id": "2",
+            "name": "mahmoud",
+            "AccountName": "mahmoud inc",
+            "AccountNumber": "123 123",
+            "address": "Burg khalifa",
+            "additionalData": {
+                "certificateRecipient": {
+                    "type": "client"
+                },
+                "profitsRecipient": {
+                    "type": "client"
+                },
+                "salesRecipient": {
+                    "type": "client"
+                }
+            },
+            "status": "submitted",
+            "updated_at": "2019-11-20T12:00:00.000Z"
+        },
+        {
+            "id": "3",
+            "name": "mahmoud",
+            "AccountName": "mahmoud inc",
+            "AccountNumber": "123 123",
+            "address": "Burg khalifa",
+            "additionalData": {
+                "certificateRecipient": {
+                    "type": "client"
+                },
+                "profitsRecipient": {
+                    "type": "client"
+                },
+                "salesRecipient": {
+                    "type": "client"
+                }
+            },
+            "status": "submitted",
+            "updated_at": "2019-11-20T12:00:00.000Z"
+        },
+        {
+            "id": "4",
+            "name": "mahmoud",
+            "AccountName": "mahmoud inc",
+            "AccountNumber": "123 123",
+            "address": "Burg khalifa",
+            "additionalData": {
+                "certificateRecipient": {
+                    "type": "client"
+                },
+                "profitsRecipient": {
+                    "type": "client"
+                },
+                "salesRecipient": {
+                    "type": "client"
+                }
+            },
+            "status": "approved",
+            "updated_at": "2019-11-20T12:00:00.000Z"
+        }
+    ]
+}
