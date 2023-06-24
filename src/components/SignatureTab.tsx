@@ -31,7 +31,7 @@ const SignatureTab: FC<Props> = (props) => {
                     The applicant agrees to participate in the Fund with the number of units specified in This subscription form submitted by XYZ Capital in accordance with the provisions of the Investment Funds Regulations issued by the Capital Market Authority in the Kingdom of Saudi Arabia, and the payment of the subscription value in accordance with the Terms and Conditions and this subscription form.
                 </p>
                 <p className="text-sm text-[#272830] leading-6">
-                    The applicant acknowledges that they fulfill all the requirements stipulated in the Terms and Conditions. Accordingly, by accepting the Fund Manager to the signed subscription form, they will become legally bound by all the terms, conditions, and documents related to it and to the offering of the Fund's units, and this subscription form is subject to all the provisions stipulated in the Terms and Conditions of the Fund.
+                    The applicant acknowledges that they fulfill all the requirements stipulated in the Terms and Conditions. Accordingly, by accepting the Fund Manager to the signed subscription form, they will become legally bound by all the terms, conditions, and documents related to it and to the offering of the Fund&apos;s units, and this subscription form is subject to all the provisions stipulated in the Terms and Conditions of the Fund.
                 </p>
             </div>
             <div className="flex mt-6 gap-x-2.5 items-center ">
