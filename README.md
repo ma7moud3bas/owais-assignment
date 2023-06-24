@@ -73,7 +73,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:ma7moud3bas/helpjuice-task.git
+  git clone git@github.com:ma7moud3bas/owais-assignment.git
 ```
 
 ### Install
