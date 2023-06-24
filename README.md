@@ -52,7 +52,7 @@ This project has the following features:
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://helpjuice-task.vercel.app/)
+- [Live Demo Link](https://owais-assignment-jekxl0pg3-mahmoud717.vercel.app/)
 
 <!-- GETTING STARTED -->
 
@@ -102,7 +102,7 @@ To run the project, execute the following command:
 To run tests, run the following command:
 
 ```sh
-  npm run cypress:run
+  npm run test
 ```
 
 
