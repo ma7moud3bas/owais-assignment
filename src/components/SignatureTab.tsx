@@ -23,7 +23,7 @@ const SignatureTab: FC<Props> = (props) => {
         <form onSubmit={(e) => handleSubmit(e)} className="bg-white/50 col-span-1 lg:col-span-3 xl:col-span-5 shadow-sm flex flex-col items-start w-full py-6 px-7">
             <h2 className="text-lg font-semibold text-primary">Certification</h2>
             <div className="bg-[#D9D9D9]/20 p-5 pb-7 mt-4 flex flex-col gap-y-4">
-                <p className="text-sm text-[#272830] leading-6">I hereby certify the information that I have provided in this subscription form is valid, correct, and complete, and an integral part of this subscription form, and XYZ Capital in its capacity as the "Fund Manager" has the full right to rely on such data and information.</p>
+                <p className="text-sm text-[#272830] leading-6">I hereby certify the information that I have provided in this subscription form is valid, correct, and complete, and an integral part of this subscription form, and XYZ Capital in its capacity as the &quot;Fund Manager&quot; has the full right to rely on such data and information.</p>
                 <p className="text-sm text-[#272830] leading-6">
                     The applicant confirms that they have read and understood the Terms and Conditions of the Fund, and accepts and agrees to what is stated therein irrevocably and unconditionally.
                 </p>
@@ -31,7 +31,7 @@ const SignatureTab: FC<Props> = (props) => {
                     The applicant agrees to participate in the Fund with the number of units specified in This subscription form submitted by XYZ Capital in accordance with the provisions of the Investment Funds Regulations issued by the Capital Market Authority in the Kingdom of Saudi Arabia, and the payment of the subscription value in accordance with the Terms and Conditions and this subscription form.
                 </p>
                 <p className="text-sm text-[#272830] leading-6">
-                    The applicant acknowledges that they fulfill all the requirements stipulated in the Terms and Conditions. Accordingly, by accepting the Fund Manager to the signed subscription form, they will become legally bound by all the terms, conditions, and documents related to it and to the offering of the Fund's units, and this subscription form is subject to all the provisions stipulated in the Terms and Conditions of the Fund.
+                    The applicant acknowledges that they fulfill all the requirements stipulated in the Terms and Conditions. Accordingly, by accepting the Fund Manager to the signed subscription form, they will become legally bound by all the terms, conditions, and documents related to it and to the offering of the Fund&apos;s units, and this subscription form is subject to all the provisions stipulated in the Terms and Conditions of the Fund.
                 </p>
             </div>
             <div className="flex mt-6 gap-x-2.5 items-center ">
