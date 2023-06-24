@@ -1,1 +1,1 @@
-export const host = process.env.NEXT_PUBLIC_HOST || "http://localhost:3000";
+export const host = process.env.NODE_ENV === "development" ? "http://localhost:3000" : `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`;
