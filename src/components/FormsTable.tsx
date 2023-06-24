@@ -8,6 +8,9 @@ type formsProps = {
     changeStatus: (status: formsProps["statusFilter"]) => void;
     status: 'idle' | 'loading' | 'success' | 'error';
 }
+const dateToString = (date: string) => {
+    return new Date(date).toLocaleDateString(undefined, { month: "long", day: "2-digit", year: "numeric" })
+}
 
 const FormsTable: FC<formsProps> = (props) => {
     const { data: custodianApplications, status, statusFilter, changeStatus } = props
@@ -57,12 +60,11 @@ const FormsTable: FC<formsProps> = (props) => {
                                     {
                                         statusFilter === "approved" ?
                                             <>
-                                                <td className="py-4 px-6 font-medium text-left">{application.created_at}</td>
-
+                                                <td className="py-4 px-6 font-medium text-left">{dateToString(application.created_at)}</td>
                                             </>
                                             :
                                             <>
-                                                <td className="py-4 px-6 font-medium text-left">{application.created_at}</td>
+                                                <td className="py-4 px-6 font-medium text-left">{dateToString(application.created_at)}</td>
                                                 <td className="py-4 px-6 font-medium text-left flex">
                                                     <div className={`bg-grey/10 p-1.5 w-auto capitalize text-sm ${application.status === "pending" ? "text-green-400" : "text-yellow-400"}`}>
                                                         {application.status}

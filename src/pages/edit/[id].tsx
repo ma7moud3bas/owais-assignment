@@ -1,12 +1,10 @@
 import DetailsTab from "@/components/DetailsTab"
 import EditTabs from "@/components/EditTabs"
-import Navbar from "@/components/Navbar"
 import OtherInformationTab from "@/components/OtherInformationTab"
 import PageWrapper from "@/components/PageWrapper"
 import SignatureTab from "@/components/SignatureTab"
 import { getApplication } from "@/lib/apiHelpers"
 import { CustodianApplication } from "@/lib/types"
-import { get } from "http"
 import { GetServerSideProps, GetServerSidePropsContext } from "next"
 import Head from "next/head"
 import { useRouter } from "next/router"
@@ -49,8 +47,8 @@ const EditApplicationPage: FC<Props> = (props) => {
                             </svg>
                         </div>
                         <div className='flex flex-col flex-1'>
-                            <h1 className='text-primary text-lg font-semibold'>New Form</h1>
-                            <h2 className='text-primary/50 leading-5 font-medium text-sm'>Select form type and start filling the info</h2>
+                            <h1 className='text-primary text-lg font-semibold capitalize'>{application.name}</h1>
+                            <h2 className='text-primary/50 leading-5 font-medium text-sm'>Lorem ipsum dolor sit amet</h2>
                         </div>
                     </div>
                 </div>

@@ -97,7 +97,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className='container mx-auto px-8 py-6 flex flex-col h-full'>
-        <div className='shadow lg:mt-14 flex max-lg:flex-col lg:justify-between lg:items-center max-lg:gap-y-6 lg:px-8 lg:py-5 bg-white/50 w-full'>
+        <div className='shadow lg:mt-14 flex max-lg:flex-col lg:justify-between lg:items-center max-lg:gap-y-6 px-6 py-3 pb-8 lg:px-8 lg:py-5 bg-white/50 w-full'>
           <div className='flex items-center lg:justify-between gap-x-4 '>
             <div className='w-12 h-12 lg:h-16 lg:w-16 rounded-full bg-primary flex items-center justify-center'>
               <svg className='max-lg:hidden' width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
