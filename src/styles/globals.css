@@ -5,3 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.radio-input-group:has( .other-radio-button > input:checked) ~ .other-input  {
+  visibility: visible;
+}

@@ -27,6 +27,8 @@ export const applicationsPostHandler = (
         const newApplication: CustodianApplication = {
             id: randomUUID(),
             ...application,
+            created_at: new Date().toISOString(),
+            updated_at: new Date().toISOString(),
         }
 
         data.applications.push(newApplication);

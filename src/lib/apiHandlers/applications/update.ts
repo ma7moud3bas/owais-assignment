@@ -34,9 +34,11 @@ export const applicationsUpdateHandler = (
         const newApplication: CustodianApplication = {
             ...oldApplication,
             ...application,
+            updated_at: new Date().toISOString(),
         }
 
-        data.applications.push(newApplication);
+        data.applications[index] = newApplication;
+
         fs.writeFileSync(filePath, JSON.stringify(data));
 
         res.status(200).json({

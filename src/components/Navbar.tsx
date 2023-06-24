@@ -3,10 +3,11 @@ import { FC, useState } from "react";
 const Navbar: FC = (props) => {
     const [navOpen, setNavOpen] = useState(false)
     const handleOpenNavbar = () => setNavOpen(old => !old)
+
     return (
         <div className="w-full ">
             <div className="container mx-auto px-8 py-6 flex justify-end">
-                <nav className="flex items-center justify-end gap-x-3">
+                <nav className="flex items-center justify-between lg:justify-end gap-x-3 w-full">
                     <div className="max-lg:hidden flex items-center justify-end gap-x-3">
                         <button className="bg-primary rounded-md font-medium leading-6 px-4 py-1.5 text-sm text-white">Individual Investor</button>
                         <div>
@@ -27,22 +28,25 @@ const Navbar: FC = (props) => {
                                 ع
                             </div>
                         </div>
-                        <div className="px-2 py-2.5 flex items-center rounded justify-between border border-primary/[35%] gap-x-2.5">
-                            <div className="h-8 w-8 bg-primary rounded-md shrink-0 flex items-center justify-center font-gothic">
-                                <span className="text-white font-semibold text-sm">BA</span>
-                            </div>
-                            <div className="flex flex-col font-medium text-grey">
-                                <span className="text-[10px]">Welcome!</span>
-                                <span className="text-lg leading-4">Bader Alobaidi</span>
-                            </div>
-                            <div>
-                                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M4.46967 8.46967C4.73594 8.2034 5.1526 8.1792 5.44621 8.39705L5.53033 8.46967L12 14.939L18.4697 8.46967C18.7359 8.2034 19.1526 8.1792 19.4462 8.39705L19.5303 8.46967C19.7966 8.73594 19.8208 9.1526 19.6029 9.44621L19.5303 9.53033L12.5303 16.5303C12.2641 16.7966 11.8474 16.8208 11.5538 16.6029L11.4697 16.5303L4.46967 9.53033C4.17678 9.23744 4.17678 8.76256 4.46967 8.46967Z" fill="#64646C" />
-                                </svg>
-                            </div>
+
+                    </div>
+
+                    <div className="px-2 py-2.5 flex items-center rounded justify-between border border-primary/[35%] gap-x-2.5">
+                        <div className="h-8 w-8 bg-primary rounded-md shrink-0 flex items-center justify-center font-gothic">
+                            <span className="text-white font-semibold text-sm">BA</span>
+                        </div>
+                        <div className="flex flex-col font-medium text-grey">
+                            <span className="text-[10px]">Welcome!</span>
+                            <span className="text-lg leading-4">Bader Alobaidi</span>
+                        </div>
+                        <div>
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.46967 8.46967C4.73594 8.2034 5.1526 8.1792 5.44621 8.39705L5.53033 8.46967L12 14.939L18.4697 8.46967C18.7359 8.2034 19.1526 8.1792 19.4462 8.39705L19.5303 8.46967C19.7966 8.73594 19.8208 9.1526 19.6029 9.44621L19.5303 9.53033L12.5303 16.5303C12.2641 16.7966 11.8474 16.8208 11.5538 16.6029L11.4697 16.5303L4.46967 9.53033C4.17678 9.23744 4.17678 8.76256 4.46967 8.46967Z" fill="#64646C" />
+                            </svg>
                         </div>
                     </div>
-                    <button onClick={handleOpenNavbar}>
+
+                    <button className="lg:hidden" onClick={handleOpenNavbar}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#004a91" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>
                     </button>
                 </nav>
