@@ -1,7 +1,7 @@
 import { host } from "./constants"
 import { delay } from "./helpers"
 import { CustodianApplication, ResponseType } from "./types"
-
+console.log(host)
 export const getApplication = async (id: string): Promise<ResponseType<{ application: CustodianApplication }>> => {
     const res = await fetch(`${host}/api/applications/${id}`)
     await delay(1000)
