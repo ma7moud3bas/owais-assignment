@@ -23,7 +23,7 @@ const SignatureTab: FC<Props> = (props) => {
         <form onSubmit={(e) => handleSubmit(e)} className="bg-white/50 col-span-1 lg:col-span-3 xl:col-span-5 shadow-sm flex flex-col items-start w-full py-6 px-7">
             <h2 className="text-lg font-semibold text-primary">Certification</h2>
             <div className="bg-[#D9D9D9]/20 p-5 pb-7 mt-4 flex flex-col gap-y-4">
-                <p className="text-sm text-[#272830] leading-6">I hereby certify the information that I have provided in this subscription form is valid, correct, and complete, and an integral part of this subscription form, and XYZ Capital in its capacity as the "Fund Manager" has the full right to rely on such data and information.</p>
+                <p className="text-sm text-[#272830] leading-6">I hereby certify the information that I have provided in this subscription form is valid, correct, and complete, and an integral part of this subscription form, and XYZ Capital in its capacity as the &quot;Fund Manager&quot; has the full right to rely on such data and information.</p>
                 <p className="text-sm text-[#272830] leading-6">
                     The applicant confirms that they have read and understood the Terms and Conditions of the Fund, and accepts and agrees to what is stated therein irrevocably and unconditionally.
                 </p>
